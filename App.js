@@ -1,9 +1,18 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React, { useEffect } from 'react'
 import SplashScreen from 'react-native-splash-screen'
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import OnboardingScreen1 from './components/Onboarding/OnboardingScreen1';
+import OnboardingScreen2 from './components/Onboarding/OnboardingScreen2';
+import Login from './components/Login/Login';
+import Signup from './components/Login/Signup';
+
+
+
 
 const App = () => {
-  
+
   //splash screen
   useEffect(() => {
     setTimeout(() => {
@@ -12,12 +21,17 @@ const App = () => {
     }, 2500)
   }, [])
 
+  const Stack = createStackNavigator();
+
   return (
-    <View>
-      <Text style={{ fontSize: 36, fontFamily: 'Viga.ttf', }}>FApp4</Text>
-      <Text style={{ fontSize: 40, fontWeight: 'bold' }}>FApp4</Text>
-      <Text style={{ fontSize: 40, fontWeight: 'bold', fontFamily: "AirbnbCereal_XBold" }}>FApp4</Text>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="OnboardingScreen1" component={OnboardingScreen1} options={{ headerShown: false }} />
+        <Stack.Screen name="OnboardingScreen2" component={OnboardingScreen2} options={{ headerShown: false }} />
+        <Stack.Screen name="Login" component={Login} options={{ headerShown: false }} />
+        <Stack.Screen name="Signup" component={Signup} options={{ headerShown: false }} />
+      </Stack.Navigator>
+    </NavigationContainer>
   )
 }
 
