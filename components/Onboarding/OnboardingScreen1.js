@@ -19,7 +19,7 @@ const OnboardingScreen1 = () => {
                 </View>
                 <Text
                     style={{ color: '#fff', fontSize: 26, textAlign: 'center', fontWeight: 'bold', fontStyle: 'normal', lineHeight: 30, marginHorizontal: 50, marginTop: 38 }}>
-                    Find your  Comfort Food here
+                    Find your  Comfort Food her
                 </Text>
                 <Text
                     style={{ color: '#fff', fontSize: 16, textAlign: 'center', fontWeight: 'normal', fontStyle: 'normal', lineHeight: 20, marginHorizontal: 66, marginTop: 20 }}>
