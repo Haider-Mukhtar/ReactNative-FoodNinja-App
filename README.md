@@ -6,8 +6,8 @@
 
 ## App Screenshots
 
-<img align="right" alt="Login" width="500" src="https://github.com/Haider-Mukhtar/ReactNative-FoodNinja-App/assets/110921787/9dd1cea3-c27a-4c1b-8199-b0beaf095448">
-<img align="right" alt="SignUp" width="500" src="https://github.com/Haider-Mukhtar/ReactNative-FoodNinja-App/assets/110921787/4aa57984-a842-4d52-acd9-97c9b5a62b1c">
+<img align="right" alt="Login" width="450" src="https://github.com/Haider-Mukhtar/ReactNative-FoodNinja-App/assets/110921787/9dd1cea3-c27a-4c1b-8199-b0beaf095448">
+<img align="right" alt="SignUp" width="450" src="https://github.com/Haider-Mukhtar/ReactNative-FoodNinja-App/assets/110921787/4aa57984-a842-4d52-acd9-97c9b5a62b1c">
 
 
 ## Environment Setup
