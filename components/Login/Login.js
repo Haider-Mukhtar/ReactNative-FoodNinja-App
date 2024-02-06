@@ -38,14 +38,15 @@ const Login = () => {
                 {/* input fields */}
                 <View style={{ marginHorizontal: 25 }}>
                     <TextInput
-                        style={{ backgroundColor: '#4d4d4d', paddingLeft: 28, fontSize: 16, fontWeight: 'bold', fontStyle: 'normal', letterSpacing: 0.5, marginBottom: 12, borderRadius: 15, paddingVertical: 16, color: '#fff' }}
+                        style={{ backgroundColor: '#4d4d4d', paddingHorizontal: 28, fontSize: 16, fontWeight: 'bold', fontStyle: 'normal', letterSpacing: 0.5, marginBottom: 12, borderRadius: 15, paddingVertical: 16, color: '#fff' }}
                         placeholder='Email'
                         placeholderTextColor='#fff'
                     />
                     <TextInput
-                        style={{ backgroundColor: '#4d4d4d', paddingLeft: 28, fontSize: 16, fontWeight: 'bold', fontStyle: 'normal', letterSpacing: 0.5, borderRadius: 15, paddingVertical: 16, color: '#fff' }}
+                        style={{ backgroundColor: '#4d4d4d', paddingHorizontal: 28, fontSize: 16, fontWeight: 'bold', fontStyle: 'normal', letterSpacing: 0.5, borderRadius: 15, paddingVertical: 16, color: '#fff' }}
                         placeholder='Password'
                         placeholderTextColor='#fff'
+                        secureTextEntry
                     />
                 </View>
                 {/* Or Continue With */}
@@ -79,7 +80,8 @@ const Login = () => {
                 </View>
                 {/* Forgot Your Password? */}
                 <TouchableOpacity
-                    style={{ alignSelf: 'center' }}>
+                    style={{ alignSelf: 'center' }}
+                    onPress={() => navigation.navigate("ForgotPassword")}>
                     <Text style={{ color: '#53E88B', fontSize: 14, fontWeight: 'bold', fontStyle: 'normal', textAlign: 'center', marginVertical: 20, textDecorationLine: 'underline' }}>
                         Forgot Your Password?
                     </Text>

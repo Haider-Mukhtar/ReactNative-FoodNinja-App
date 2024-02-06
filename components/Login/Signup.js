@@ -38,19 +38,20 @@ const Signup = () => {
                 {/* input fields */}
                 <View style={{ marginHorizontal: 25 }}>
                     <TextInput
-                        style={{ backgroundColor: '#4d4d4d', paddingLeft: 28, fontSize: 16, fontWeight: 'bold', fontStyle: 'normal', letterSpacing: 0.5, marginBottom: 12, borderRadius: 15, paddingVertical: 16, color: '#fff' }}
+                        style={{ backgroundColor: '#4d4d4d', paddingHorizontal: 28, fontSize: 16, fontWeight: 'bold', fontStyle: 'normal', letterSpacing: 0.5, marginBottom: 12, borderRadius: 15, paddingVertical: 16, color: '#fff' }}
                         placeholder='Name'
                         placeholderTextColor='#fff'
                     />
                     <TextInput
-                        style={{ backgroundColor: '#4d4d4d', paddingLeft: 28, fontSize: 16, fontWeight: 'bold', fontStyle: 'normal', letterSpacing: 0.5, marginBottom: 12, borderRadius: 15, paddingVertical: 16, color: '#fff' }}
+                        style={{ backgroundColor: '#4d4d4d', paddingHorizontal: 28, fontSize: 16, fontWeight: 'bold', fontStyle: 'normal', letterSpacing: 0.5, marginBottom: 12, borderRadius: 15, paddingVertical: 16, color: '#fff' }}
                         placeholder='Email'
                         placeholderTextColor='#fff'
                     />
                     <TextInput
-                        style={{ backgroundColor: '#4d4d4d', paddingLeft: 28, fontSize: 16, fontWeight: 'bold', fontStyle: 'normal', letterSpacing: 0.5, borderRadius: 15, paddingVertical: 16, color: '#fff' }}
+                        style={{ backgroundColor: '#4d4d4d', paddingHorizontal: 28, fontSize: 16, fontWeight: 'bold', fontStyle: 'normal', letterSpacing: 0.5, borderRadius: 15, paddingVertical: 16, color: '#fff' }}
                         placeholder='Password'
                         placeholderTextColor='#fff'
+                        secureTextEntry
                     />
                 </View>
                 {/* checks */}
@@ -77,7 +78,7 @@ const Signup = () => {
                 {/* Create Account btn */}
                 <TouchableOpacity
                     style={{ backgroundColor: '#53E88B', alignSelf: 'center', marginTop: 50, borderRadius: 20, }}
-                    onPress={() => navigation.navigate("")}
+                    onPress={() => navigation.navigate("SignupProcess")}
                 >
                     <Text
                         style={{ color: '#fff', fontSize: 20, fontWeight: 'bold', fontStyle: 'normal', lineHeight: 20, paddingVertical: 20, paddingHorizontal: 35, }}>
