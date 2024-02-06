@@ -10,6 +10,7 @@
 <img align="right" alt="SignUp" width="480" src="https://github.com/Haider-Mukhtar/ReactNative-FoodNinja-App/assets/110921787/9dd1cea3-c27a-4c1b-8199-b0beaf095448">
 
 
+
 ## Environment Setup
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
