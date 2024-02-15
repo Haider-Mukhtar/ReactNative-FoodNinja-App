@@ -89,7 +89,7 @@ const Login = () => {
                 {/* Login btn */}
                 <TouchableOpacity
                     style={{ backgroundColor: '#53E88B', alignSelf: 'center', marginTop: 20, borderRadius: 20, }}
-                    onPress={() => navigation.navigate("")}
+                    onPress={() => navigation.navigate("Home")}
                 >
                     <Text
                         style={{ color: '#fff', fontSize: 20, fontWeight: 'bold', fontStyle: 'normal', lineHeight: 20, paddingVertical: 20, paddingHorizontal: 70, }}>

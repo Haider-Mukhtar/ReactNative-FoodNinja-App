@@ -13,6 +13,7 @@ import ForgotPassword from './components/Login/ForgotPassword';
 import NewPassword from './components/Login/NewPassword';
 import PasswordResetSuccess from './components/Login/PasswordResetSuccess';
 import SignupSuccess from './components/Login/SignupSuccess';
+import Home from './components/Home/Home';
 
 
 
@@ -42,6 +43,7 @@ const App = () => {
         <Stack.Screen name="NewPassword" component={NewPassword} options={{ headerShown: false }} />
         <Stack.Screen name="PasswordResetSuccess" component={PasswordResetSuccess} options={{ headerShown: false }} />
         <Stack.Screen name="SignupSuccess" component={SignupSuccess} options={{ headerShown: false }} />
+        <Stack.Screen name="Home" component={Home} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   )
